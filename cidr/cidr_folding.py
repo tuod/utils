@@ -21,7 +21,7 @@ def fold_networks(network_a, mask_a, network_b, mask_b):
 
 
 def get_cidr():
-    with open("RU_CIDR") as cidr_file:
+    with open("cidr_rf.txt") as cidr_file:
         return [i.rstrip() for i in cidr_file.readlines()]
 
 
